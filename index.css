@@ -11,7 +11,15 @@ html {
   height: 100%;
   display: grid;
   background-color: tomato;
-  /* overflow: hidden; */
+  overflow: hidden;
+}
+
+@media (max-width: 500px) {
+
+  body,
+  html {
+    overflow: visible;
+  }
 }
 
 h1,
