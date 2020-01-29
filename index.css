@@ -58,6 +58,7 @@ p {
     width: 100%;
     height: 100%;
     border: solid 20px white;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -107,7 +108,7 @@ p {
   .title {
     grid-row-start: 1;
     grid-row-end: 2;
-    grid-column-end: 9;
+    grid-column-end: 3;
   }
 
   .title h1 {
@@ -142,8 +143,8 @@ p {
 
 @media (max-width: 500px) {
   .filler-black {
-    grid-column-start: 8;
-    grid-column-end: 9;
+    grid-column-start: 3;
+    grid-column-end: 4;
   }
 }
 
@@ -219,7 +220,7 @@ p {
 @media (max-width: 500px) {
   .portfolio {
     grid-column-start: 1;
-    grid-column-end: 9;
+    grid-column-end: 4;
     grid-row-start: 4;
     grid-row-end: 5;
   }
@@ -267,7 +268,7 @@ p {
   .about {
     grid-row-start: 2;
     grid-row-end: 3;
-    grid-column-end: 9;
+    grid-column-end: 4;
   }
 }
 
@@ -287,8 +288,8 @@ p {
 
 @media (max-width: 500px) {
   .filler-white-tiny {
-    grid-column-start: 8;
-    grid-column-end: 9;
+    grid-column-start: 3;
+    grid-column-end: 4;
     grid-row-start: 3;
     grid-row-end: 4;
     padding: 10px;
@@ -340,7 +341,7 @@ p {
 @media (max-width: 500px) {
   .filler-white {
     grid-column-start: 1;
-    grid-column-end: 9;
+    grid-column-end: 4;
     grid-row-start: 7;
     grid-row-end: 8;
   }
@@ -382,7 +383,7 @@ p {
 
 @media (max-width: 500px) {
   .social {
-    grid-column-end: 8;
+    grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 4;
     /* align-items: center; */
@@ -426,7 +427,7 @@ p {
 @media (max-width: 500px) {
   .contact {
     grid-column-start: 1;
-    grid-column-end: 9;
+    grid-column-end: 4;
     grid-row-start: 5;
     grid-row-end: 6;
     font-size: .8em;
@@ -455,7 +456,7 @@ p {
   .form {
     border: solid 10px #282828;
     grid-column-start: 1;
-    grid-column-end: 9;
+    grid-column-end: 4;
     grid-row-start: 6;
     grid-row-end: 7;
     flex-direction: column;
@@ -499,7 +500,7 @@ p {
     grid-row-start: 6;
     grid-row-end: 6;
     grid-column-start: 1;
-    grid-column-end: 7;
+    grid-column-end: 3;
     height: 70%;
     width: 93%;
   }
@@ -541,8 +542,8 @@ p {
     border: none;
     grid-row-start: 6;
     grid-row-end: 6;
-    grid-column-start: 7;
-    grid-column-end: 9;
+    grid-column-start: 2;
+    grid-column-end: 4;
     height: 20%;
   }
 }
@@ -573,7 +574,7 @@ p {
 @media (max-width: 500px) {
   .art-inner {
     grid-column-start: 1;
-    grid-column-end: 9;
+    grid-column-end: 4;
     grid-row-start: 8;
     grid-row-end: 9;
   }
