@@ -2,7 +2,7 @@
   font-family: 'lordish';
   src: url("lordish.woff2") format("woff2"),
     url("lordish.woff") format("woff"),
-    url("lordish-1.ttf") format("truetype");
+    url("lordish-1.ttf") format("ttf");
   font-weight: normal;
   font-style: normal;
 }
