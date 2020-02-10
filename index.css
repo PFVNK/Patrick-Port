@@ -5,12 +5,17 @@
   font-style: normal;
 }
 
+:root {
+  --main-black: #282828;
+  --main-red: tomato;
+}
+
 
 body,
 html {
   height: 100%;
   display: grid;
-  background-color: tomato;
+  background-color: var(--main-red);
   overflow: hidden;
 }
 
@@ -69,7 +74,7 @@ p {
 .title {
   /* width: 50vw; */
   /* border: solid 10px white; */
-  color: #282828;
+  color: var(--main-black);
   grid-column-start: 1;
   grid-column-end: 5;
 }
@@ -126,8 +131,8 @@ p {
 
 /* DECORATION */
 .filler-black {
-  border: solid 10px tomato;
-  background-color: #282828;
+  border: solid 10px var(--main-red);
+  background-color: var(--main-black);
   grid-column-start: 5;
   grid-column-end: 6;
   grid-row-start: 1;
@@ -180,8 +185,8 @@ p {
   font-size: 1.5em;
   margin-bottom: 1.2em;
   border: solid 10px white;
-  background-color: #282828;
-  color: tomato;
+  background-color: var(--main-black);
+  color: var(--main-red);
 }
 
 .portfolio a {
@@ -277,7 +282,7 @@ p {
 
 /* DECORATION */
 .filler-white-tiny {
-  border: solid 20px #282828;
+  border: solid 20px var(--main-black);
   background-color: white;
   grid-column-start: 4;
   grid-column-end: 5;
@@ -301,7 +306,7 @@ p {
 
 /* STATIC */
 .filler-white {
-  border: solid 10px #282828;
+  border: solid 10px var(--main-black);
   grid-column-start: 4;
   grid-column-end: 6;
   grid-row-start: 3;
@@ -360,7 +365,7 @@ p {
 .social {
   grid-column-start: 1;
   grid-column-end: 4;
-  background-color: #282828;
+  background-color: var(--main-black);
   border: solid 10px white;
   display: flex;
   justify-content: space-around;
@@ -407,7 +412,7 @@ p {
 
 /* CONTACT */
 .contact {
-  border: solid 10px tomato;
+  border: solid 10px var(--main-red);
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 4;
@@ -415,7 +420,7 @@ p {
   text-align: center;
   font-size: .9em;
   color: white;
-  background-color: #282828;
+  background-color: var(--main-black);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -460,7 +465,7 @@ p {
 
 @media (max-width: 500px) {
   .form {
-    border: solid 10px #282828;
+    border: solid 10px var(--main-black);
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 6;
@@ -478,13 +483,13 @@ p {
 /* INPUT */
 .filler-small-white {
   width: 80%;
-  border: solid 10px tomato;
+  border: solid 10px var(--main-red);
   background-color: white;
   /* grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 7;
   grid-row-end: 9; */
-  color: #282828;
+  color: var(--main-black);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -520,8 +525,8 @@ p {
 
 /* BUTTON */
 .filler-small-black {
-  border: solid 10px tomato;
-  background-color: #282828;
+  border: solid 10px var(--main-red);
+  background-color: var(--main-black);
   color: white;
   /* grid-column-start: 3;
   grid-column-end: 4;
@@ -563,7 +568,7 @@ p {
 /* FOOTER */
 .art-inner {
   border: solid 10px white;
-  background-color: tomato;
+  background-color: var(--main-red);
   grid-column-start: 6;
   grid-column-end: 9;
   grid-row-start: 7;
