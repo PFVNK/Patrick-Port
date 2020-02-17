@@ -307,8 +307,8 @@ p {
 .filler-white-static {
   position: absolute;
   z-index: 1;
-  height: 500px;
-  width: 500px
+  height: 100%;
+  width: 100%;
 }
 
 .filler-white>video {
